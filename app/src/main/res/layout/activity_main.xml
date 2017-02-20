@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f"
+    tools:context="com.example.linh.customview.MainActivity">
+
+    <!--<com.example.linh.customview.CircleView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:padding="0dp"-->
+        <!--android:background="#f0f"-->
+        <!--circleViewPkg:strokeWidth="5dp"-->
+        <!--circleViewPkg:strokeColor="@android:color/holo_red_dark"/>-->
+
+    <com.example.linh.customview.StateProgressbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/stateProgressbar" />
+</RelativeLayout>
